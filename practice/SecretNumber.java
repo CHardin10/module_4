@@ -38,6 +38,8 @@ public class SecretNumber {
 		String yes = "yes";
 		String no = "no";
 		
+		System.out.print("");
+		String s = sc.nextLine();
 		System.out.print("Do you want to guess another number? (Yes/No): ");
 		String choose = sc.nextLine().toLowerCase();
 					
