@@ -8,12 +8,12 @@ public class SecretNumber {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		
 		double userGuess, compare, randomNum;
 		
-		
 		System.out.print("Guess a number between 1 and 10: ");
-		userGuess = Math.round(sc.nextDouble());
 		
+		userGuess = Math.round(sc.nextDouble());
 		randomNum = Math.random();
 		compare = Math.round(randomNum * 10);
 		
